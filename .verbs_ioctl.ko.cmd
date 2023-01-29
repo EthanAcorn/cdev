@@ -1,0 +1,1 @@
+cmd_/root/cdev_init/verbs_ioctl.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack -T ./scripts/module-common.lds  --build-id  -o /root/cdev_init/verbs_ioctl.ko /root/cdev_init/verbs_ioctl.o /root/cdev_init/verbs_ioctl.mod.o ;  true

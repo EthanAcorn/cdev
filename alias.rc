@@ -1,0 +1,6 @@
+alias alloc_chrdev_region="insmod cdev_init.ko"
+alias chrdev_open="rmmod cdev_init.ko"
+alias register_chrdev_region="make clean modules"
+alias cdev_device_add="gcc  -ggdb3 user_utils.c"
+
+

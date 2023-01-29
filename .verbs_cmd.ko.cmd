@@ -1,0 +1,1 @@
+cmd_/root/cdev_init/verbs_cmd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack -T ./scripts/module-common.lds  --build-id  -o /root/cdev_init/verbs_cmd.ko /root/cdev_init/verbs_cmd.o /root/cdev_init/verbs_cmd.mod.o ;  true

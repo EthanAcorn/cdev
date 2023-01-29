@@ -1,0 +1,3 @@
+kernel//root/cdev_init/cdev_init.ko
+kernel//root/cdev_init/verbs_ioctl.ko
+kernel//root/cdev_init/verbs_cmd.ko
